@@ -9,7 +9,7 @@
 
 results = []
 
-def first(numbers)
+def square_array(numbers)
   numbers[1]**2
 end
 
@@ -17,8 +17,8 @@ def second(numbers)
   numbers[2]**2
 end
 
-def results_push(first)
-  results.push(first)
+def push_results(numbers)
+  results.push(square_array)
 end
 
 results
