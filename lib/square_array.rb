@@ -15,6 +15,7 @@ end
 
 def second(numbers)
   numbers[2]**2
+end
 
 def results_push(first)
   results.push(first)
