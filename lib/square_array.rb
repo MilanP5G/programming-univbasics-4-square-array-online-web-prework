@@ -18,7 +18,7 @@ def square_array(numbers)
 end
 
 def push_results(numbers)
-  results.push(square_array) **2
+  results.push(square_array **2)
 end
 
 results
