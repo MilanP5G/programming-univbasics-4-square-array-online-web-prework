@@ -1,21 +1,16 @@
 
-
-results = []
-
 def square_array(numbers)
+  results = []
    count = 0
     
    while count < numbers.length do
-     numbers[count] **2
+     results << numbers[count] **2
      count += 1
    end
+   results
 end 
 
-def push_results(square_array)
-  results.push(square_array)
-end
 
-results
 
 
 
