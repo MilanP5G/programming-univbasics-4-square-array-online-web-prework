@@ -13,7 +13,7 @@ def square_array(numbers)
   numbers[1]**2
 end
 
-def second(numbers)
+def square_array(numbers)
   numbers[2]**2
 end
 
