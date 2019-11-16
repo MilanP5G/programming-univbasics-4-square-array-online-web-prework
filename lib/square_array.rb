@@ -9,7 +9,7 @@
 
 results = []
 
-def square_array(numbers)
+def first(numbers)
   numbers[1]**2
 end
 
