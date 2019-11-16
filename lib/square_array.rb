@@ -7,38 +7,21 @@
  #  end
 #end 
 
-#results = []
-
-#def square_array(numbers)
-#  numbers[1] **2
-#end
-
-#def square_array(numbers)
-#  numbers[2] **2
-#end
-
-#def push_results(numbers)
-#  results.push(square_array)
-#end
-
-#results
-
-
 results = []
 
-def square_array
-  counter = 0
-while numbers[counter] do
-  numbers[counter]
-  counter += 1
+def square_array(numbers)
+  numbers[1] **2
 end
 
-def push_results(square_array)
+def square_array(numbers)
+  numbers[2] **2
+end
+
+def push_results(numbers)
   results.push(square_array)
 end
 
 results
-
 
 
 
