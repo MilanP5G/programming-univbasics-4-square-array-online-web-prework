@@ -27,11 +27,11 @@
 results = []
 
 while numbers[counter] do
-  puts numbers[counter]
+  numbers[counter]
   counter += 1
 end
 
-def push_results(numbers)
+def push_results(square_array)
   results.push(square_array)
 end
 
