@@ -7,14 +7,30 @@
  #  end
 #end 
 
-results = []
+#results = []
 
-def square_array(numbers)
-  numbers[1] **2
+#def square_array(numbers)
+#  numbers[1] **2
+#end
+
+#def square_array(numbers)
+#  numbers[2] **2
+#end
+
+def push_results(numbers)
+  results.push(square_array)
 end
 
-def square_array(numbers)
-  numbers[2] **2
+results
+
+
+results = []
+
+def square_array
+  counter = 0
+while numbers[counter] do
+  puts numbers[counter]
+  counter += 1
 end
 
 def push_results(numbers)
