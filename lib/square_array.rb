@@ -17,11 +17,11 @@
 #  numbers[2] **2
 #end
 
-def push_results(numbers)
-  results.push(square_array)
-end
+#def push_results(numbers)
+#  results.push(square_array)
+#end
 
-results
+#results
 
 
 results = []
