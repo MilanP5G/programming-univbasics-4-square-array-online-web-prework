@@ -9,7 +9,6 @@
 
 results = []
 
-
 def square_array(numbers)
   count = 0 
   
