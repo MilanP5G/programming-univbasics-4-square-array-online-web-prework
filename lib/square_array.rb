@@ -26,6 +26,8 @@
 
 results = []
 
+def square_array
+  counter = 0
 while numbers[counter] do
   numbers[counter]
   counter += 1
