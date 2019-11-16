@@ -13,8 +13,11 @@ def first(numbers)
   numbers[1]**2
 end
 
-def results_push(square_array)
-  results.push(square_array)
+def second(numbers)
+  numbers[2]**2
+
+def results_push(first)
+  results.push(first)
 end
 
 results
