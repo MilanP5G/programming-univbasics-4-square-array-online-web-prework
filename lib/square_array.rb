@@ -10,15 +10,15 @@
 results = []
 
 def square_array(numbers)
-  numbers[1]
+  numbers[1] **2
 end
 
 def square_array(numbers)
-  numbers[2]
+  numbers[2] **2
 end
 
 def push_results(numbers)
-  results.push(square_array **2)
+  results.push(square_array)
 end
 
 results
